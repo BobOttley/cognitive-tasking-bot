@@ -56,26 +56,14 @@ PAGE_LINKS = {
 
 
 # ─── Human labels for fallback links ────────────────────────────────────────
-    # Home
-    PAGE_LINKS["home"]:        "Back to Cognitive Tasking home",
-
-    # Downloads
-    PAGE_LINKS["downloads"]:   "View downloads",
-
-    # Benefits calculator
-    PAGE_LINKS["benefits calculator"]: "Open benefits calculator",
-
-    # Book a meeting
-    PAGE_LINKS["book a meeting"]:      "Book a meeting",
-
-    # Early adopter programme
-    PAGE_LINKS["early adopter programme"]: "Learn about Early Adopter Programme",
-
-    # FAQs
-    PAGE_LINKS["faq"]:         "View FAQs",
-
-    # Contact
-    PAGE_LINKS["contact"]:     "Contact us",
+URL_LABELS = {
+    PAGE_LINKS["home"]:                     "Back to Cognitive Tasking home",
+    PAGE_LINKS["downloads"]:                "View downloads",
+    PAGE_LINKS["benefits calculator"]:      "Open benefits calculator",
+    PAGE_LINKS["book a meeting"]:           "Book a meeting",
+    PAGE_LINKS["early adopter programme"]:  "Learn about Early Adopter Programme",
+    PAGE_LINKS["faq"]:                      "View FAQs",
+    PAGE_LINKS["contact"]:                  "Contact us",
 }
 
 STATIC_QAS = {
