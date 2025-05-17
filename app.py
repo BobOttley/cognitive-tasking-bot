@@ -17,7 +17,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 if not openai.api_key:
     raise RuntimeError("OPENAI_API_KEY not set in .env")
 
-# ─── URL lookup ───────────────────────────────────────────────────────────────
+# ─── PAGE_LINKS ───────────────────────────────────────────────────────────────
 PAGE_LINKS = {
     # Home
     "home":                "https://cognitivetasking.com/",
@@ -31,29 +31,29 @@ PAGE_LINKS = {
     # Benefits calculator
     "benefits calculator": "https://cognitivetasking.com/benefits-calculator",
     "savings":             "https://cognitivetasking.com/benefits-calculator",
-    "improvemwents":       "https://cognitivetasking.com/benefits-calculator",
+    "improvements":        "https://cognitivetasking.com/benefits-calculator",
 
     # Book a meeting
-    "book a meeting":      "https://cognitivetasking.com/Book-a-Meeting",
-    "meeting":             "https://cognitivetasking.com/Book-a-Meeting",
-    "demo":                "https://cognitivetasking.com/Book-a-Meeting",
-    "book":                "https://cognitivetasking.com/Book-a-Meeting",
+    "book a meeting":      "https://cognitivetasking.com/book-a-meeting",
+    "meeting":             "https://cognitivetasking.com/book-a-meeting",
+    "demo":                "https://cognitivetasking.com/book-a-meeting",
+    "book":                "https://cognitivetasking.com/book-a-meeting",
     
     # Early adopter programme
-    "early adopter programme": "https://cognitivetasking.com/early-adopter-programme",",
+    "early adopter programme": "https://cognitivetasking.com/early-adopter-programme",
 
     # FAQs
-    "faq":                "https://cognitivetasking.com/PENai-FAQs",
-    "faqs":               "https://cognitivetasking.com/PENai-FAQs",
+    "faq":                 "https://cognitivetasking.com/PENai-FAQs",
+    "faqs":                "https://cognitivetasking.com/PENai-FAQs",
 
     # Contact
-    "contact":            "https://cognitivetasking.com/contact-us",
-    "contact us":         "https://cognitivetasking.com/contact-us",
-    "email":              "https://cognitivetasking.com/contact-us",
-    "phone":              "https://cognitivetasking.com/contact-us",
-    "telephone":          "https://cognitivetasking.com/contact-us",
-
+    "contact":             "https://cognitivetasking.com/contact-us",
+    "contact us":          "https://cognitivetasking.com/contact-us",
+    "email":               "https://cognitivetasking.com/contact-us",
+    "phone":               "https://cognitivetasking.com/contact-us",
+    "telephone":           "https://cognitivetasking.com/contact-us",
 }
+
 
 # ─── Human labels for fallback links ────────────────────────────────────────
 # Home
