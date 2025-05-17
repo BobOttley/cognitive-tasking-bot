@@ -56,7 +56,7 @@ PAGE_LINKS = {
 
 
 # ─── Human labels for fallback links ────────────────────────────────────────
-# Home
+    # Home
     PAGE_LINKS["home"]:        "Back to Cognitive Tasking home",
 
     # Downloads
